@@ -6,8 +6,13 @@ function calculator(expression) {
   // Split the expression into two numbers and operator
   const numbers = expression.split('+');
   const operator = expression.match(/[+\-*\/]/)[0];
+  // Check if it is arabic or roman
+  const num1 = isNaN(numbers[0])
+    ? romanNumberToArabicNumber([numbers[0]])
+    : parseInt(numbers[0]);
+    
 
-
+ 
 
   console.log(operator);
   return operator;
