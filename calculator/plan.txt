@@ -1,0 +1,5 @@
+1. Make a function to convert roman number to arabic
+2. Make a function to convert arabic number to roman
+3. Testing
+4. Make a function for calculator
+5. Split the expression using regular expression

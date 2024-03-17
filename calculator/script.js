@@ -1,4 +1,4 @@
-// ! Solution 1:
+// ! Solution:
 // Using me
 
 function calculator(expression) {
@@ -7,7 +7,7 @@ function calculator(expression) {
   const numbers = expression.split('+');
   const operator = expression.match(/[+\-*\/]/)[0];
 
-  
+
 
   console.log(operator);
   return operator;
